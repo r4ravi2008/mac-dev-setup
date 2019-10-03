@@ -59,6 +59,7 @@ brew install git-flow
 brew install git-extras
 brew install ssh-copy-id
 brew install cmake
+brew install maven
 
 # Core casks
 brew cask install --appdir="/Applications" alfred
