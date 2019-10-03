@@ -50,6 +50,7 @@ brew install homebrew/php/php55 --with-gmp
 brew install kubectl
 brew install tmux
 brew install awscli
+brew install aws-shell
 
 # Install other useful binaries.
 brew install git
