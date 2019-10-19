@@ -51,6 +51,9 @@ brew install kubectl
 brew install tmux
 brew install awscli
 brew install aws-shell
+brew tap aws/tap
+brew install aws-sam-cli
+
 
 # Install other useful binaries.
 brew install git
