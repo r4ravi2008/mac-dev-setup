@@ -53,7 +53,7 @@ brew install awscli
 brew install aws-shell
 brew tap aws/tap
 brew install aws-sam-cli
-
+brew install openssh
 
 # Install other useful binaries.
 brew install git
@@ -70,6 +70,7 @@ brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="~/Applications" java
 brew cask install --appdir="~/Applications" xquartz
+brew cask install --appdir="~/Applications" docker
 
 # Misc casks
 # brew cask install --appdir="/Applications" google-chrome
