@@ -41,7 +41,7 @@ brew install wget --with-iri
 brew install python3
 
 # Install more recent versions of some OS X tools.
-brew install vim
+brew install neovim
 brew install zsh
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
@@ -72,20 +72,15 @@ brew cask install --appdir="~/Applications" java
 brew cask install --appdir="~/Applications" xquartz
 brew cask install --appdir="~/Applications" docker
 
+brew cask install apache-spark
+brew cask install vimr
+
+
 # Misc casks
 # brew cask install --appdir="/Applications" google-chrome
 # brew cask install --appdir="/Applications" firefox
-#brew cask install --appdir="/Applications" skype
-# brew cask install --appdir="/Applications" slack
-# brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" evernote
-# brew cask install --appdir="/Applications" 1password
-#brew cask install --appdir="/Applications" gimp
-#brew cask install --appdir="/Applications" inkscape
- brew cask install google-cloud-sdk
-
-#Remove comment to install LaTeX distribution MacTeX
-#brew cask install --appdir="/Applications" mactex
+brew cask install google-cloud-sdk
 
 # Install Docker, which requires virtualbox
 brew install docker
