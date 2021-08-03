@@ -1,8 +1,6 @@
 alias spark-ui="ssh -CNg -D 127.0.0.1:8157 prod_bastion"
 alias spark-ui-preprod="ssh -CNg -D 127.0.0.1:8157 preprod_bastion"
-# prod account =  473156531564 
-# pre prod account = 515292565807
- 
+
 function generateAWSCreds() {
     echo "Generating aws credentials for account: $1, for role: $2, for aws profile: $3"
     export AWS_DEFAULT_PROFILE=$3
